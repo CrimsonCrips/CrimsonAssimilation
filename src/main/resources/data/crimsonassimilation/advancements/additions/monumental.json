@@ -1,0 +1,49 @@
+{
+	"parent": "minecraft:adventure/root",	
+	"criteria": {
+		"moddedmonumental": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "betteroceanmonuments:ocean_monument"
+							}
+						}
+					}
+				]
+			}
+		},
+		"vanillamonumental": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "minecraft:monument"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"icon": {"item": "minecraft:prismarine_shard"},
+		"title": {"translate":"monumental.title"},
+		"description": {"translate":"monumental.description"},
+		"frame": "task"
+	},
+	"requirements": [
+		[
+			"vanillamonumental",
+			"moddedmonumental"
+		]
+		]
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "alexsmobs:alexsmobs/root",
+  "criteria": {
+      "endsplosive": {
+    "trigger": "minecraft:inventory_changed",
+          "conditions": {
+      "items": [
+        {
+          "items": [
+            "alexsmobs:large_catfish_bucket"
+          ]
+        }
+      ]
+    }
+  }				
+  },
+  "display": {
+      "description": { "translate": "chonker.description" },
+      "frame": "task",
+      "icon": {"item": "alexsmobs:large_catfish_bucket"},
+      "title": {"translate": "chonker.title"}
+  }
+}

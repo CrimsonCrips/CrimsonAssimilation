@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:adventure/two_birds_one_arrow",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:shot_crossbow",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:crossbow"
+            ],
+            "nbt": "{ChargedProjectiles: [{id: \"minecraft:firework_rocket\"}]}"
+          }
+        }
+      }
+    },
+    "display": {
+        "description": { "translate": "rpg.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:firework_rocket"},
+        "title": {"translate": "rpg.title"}
+    }
+}

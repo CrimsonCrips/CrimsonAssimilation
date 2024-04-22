@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil",
+        {
+            "id":"#twigs:seashells",
+            "id":"ecologics:seashell",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "farmersdelight:main/place_skillet",
+  "criteria": {
+      "bonk": {
+          "conditions": {
+            "killing_blow": {
+            "source_entity":{
+              "equipment": {
+                "mainhand":{
+                  "tag": "c:tools/knives"
+                }
+              }
+            }
+          }
+            },
+        "trigger": "minecraft:player_killed_entity"
+      }
+  },
+  "display": {
+      "description": { "translate": "shanked.description" },
+      "frame": "task",
+      "hidden": false,
+      "icon": {"item": "farmersdelight:iron_knife"},
+      "title": {"translate": "shanked.title"}
+  }
+}

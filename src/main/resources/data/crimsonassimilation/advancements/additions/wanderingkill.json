@@ -1,0 +1,17 @@
+{
+    "parent": "crimsonassimilation:additions/trade_at_void_height",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:wandering_trader"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "wanderingkill.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:lead"},
+        "title": {"translate": "wanderingkill.title"}
+    }
+}

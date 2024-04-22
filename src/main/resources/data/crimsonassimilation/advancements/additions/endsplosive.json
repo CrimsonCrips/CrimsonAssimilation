@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:end/kill_dragon",
+    "criteria": {
+        "endsplosive": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:end_crystal"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "endsplosive.title" },
+        "frame": "task",
+        "icon": {"item": "minecraft:end_crystal"},
+        "title": {"translate": "endsplosive.description"}
+    }
+}

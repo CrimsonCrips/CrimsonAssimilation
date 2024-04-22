@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:husbandry/silk_touch_nest",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:bee"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "beerate.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:honeycomb"},
+        "title": {"translate": "beerate.title"}
+    }
+}

@@ -1,0 +1,27 @@
+{
+	"parent": "biomesoplenty:biomesoplenty/all_biomes",
+	"criteria": {
+	  "example": {
+		"trigger": "minecraft:location",
+		"conditions": {
+			"player": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"location": {
+					  "biome": "minecraft:mushroom_fields"
+					}
+				  }
+				}
+			  ]
+		}
+	  }
+	},
+	"display": {
+		"icon": {"item": "minecraft:red_mushroom_block"},
+		"title": {"translate":"shroomland.title"},
+		"description": {"translate":"shroomland.description"},
+		"frame": "task"
+	}
+}

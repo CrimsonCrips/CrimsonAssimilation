@@ -1,0 +1,51 @@
+{
+    "parent": "alexsmobs:alexsmobs/ender_flu",
+    "criteria": {
+      "end": {
+        "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {
+                    "type": "alexsmobs:enderiophage",
+                    "nbt": "{Variant:1}"
+            }
+        }
+      },
+      "overworld": {
+        "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {
+                "type": "alexsmobs:enderiophage",
+                "nbt": "{Variant:2}"
+            }
+        }
+      },
+      "nether": {
+        "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {
+                    "type": "alexsmobs:enderiophage",
+                    "nbt": "{Variant:3}"
+            }
+        }
+      }
+
+    },
+    "display": {
+        "description": { "translate": "quarantine.description" },
+        "frame": "challenge",
+        "icon": {"item": "alexsmobs:tab_icon",
+        "nbt": "{DisplayEntityType:\"alexsmobs:enderiophage\"}"},
+        "title": {"translate": "quarantine.title"}
+    },
+    "requirements": [
+      [
+        "end"
+      ],
+      [
+        "overworld"
+      ],
+      [
+        "nether"
+      ]
+    ]
+  }

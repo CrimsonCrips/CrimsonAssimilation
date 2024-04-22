@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "struck_creeper": {
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:creeper"
+              }
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:channeled_lightning"
+    }
+  },
+    "display": {
+        "description": { "translate": "creeper_charged.description"},
+        "frame": "task",
+        "icon": {"item": "minecraft:tnt"},
+        "title": {"translate": "creeper_charged.title"}
+    }
+}

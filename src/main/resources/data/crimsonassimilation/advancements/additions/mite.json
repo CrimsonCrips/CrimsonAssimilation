@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:end/root",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:endermite"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "mite.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:ender_pearl"},
+        "title": {"translate": "mite.title"}
+    }
+}

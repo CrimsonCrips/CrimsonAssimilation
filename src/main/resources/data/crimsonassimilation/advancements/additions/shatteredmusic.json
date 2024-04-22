@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/avoid_vibration",
+    "criteria": {
+        "carved": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:music_disk_5"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "shatteredmusic.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:music_disk_5"},
+        "title": {"translate": "shatteredmusic.title"}
+    }
+}

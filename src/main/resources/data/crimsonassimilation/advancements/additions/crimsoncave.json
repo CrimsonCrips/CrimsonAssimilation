@@ -1,0 +1,27 @@
+{
+	"parent": "crimsonassimilation:additions/yarr",
+	"criteria": {
+	  "monumental": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"location": {
+					  "structure": "crimsonassimilation:crimsoncave"
+					}
+				  }
+				}
+			  ]
+		  }
+		}
+	},
+	"display": {
+		"icon": {"item": "minecraft:crimson_nylium"},
+		"title": {"translate":"crimsoncave.title"},
+		"description": {"translate":"crimsoncave.description"},
+		"frame": "task"
+	}
+}

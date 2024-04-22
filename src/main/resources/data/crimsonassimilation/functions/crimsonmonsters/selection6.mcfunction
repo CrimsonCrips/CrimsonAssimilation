@@ -1,0 +1,10 @@
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+summon minecraft:phantom ~ ~3 ~ {CustomName:' "Proselyte Of Thy Crimson"',ActiveEffects:[{Id:12,Duration:1000000,Amplifier:1},{Id:11,Duration:1000000,Amplifier:2},{Id:1,Duration:1000000,Amplifier:2}],PersistenceRequired:true}
+fill ~ ~ ~ ~ ~ ~ air

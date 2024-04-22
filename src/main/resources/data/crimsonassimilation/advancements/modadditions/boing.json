@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "backpack": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "usefulslime:slime_sling"
+                  ]
+                }
+              ]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "boing.description" },
+        "frame": "task",
+        "icon": {"item": "usefulslime:slime_sling"},
+        "title": {"translate": "boing.title"}
+    }
+}

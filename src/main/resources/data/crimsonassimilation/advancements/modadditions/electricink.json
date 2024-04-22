@@ -1,0 +1,28 @@
+{
+  "parent": "alexsmobs:alexsmobs/root",
+  "criteria": {
+    "struckentity": {
+      "conditions": {
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:squid"
+              }
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:channeled_lightning"
+    }
+  },
+    "display": {
+        "description": {"translate": "electricink.description"},
+        "frame": "task",
+        "icon": {"item": "alexsmobs:tab_icon",
+        "nbt": "{DisplayEntityType:\"alexsmobs:giant_squid\"}"},
+        "title": {"translate": "electricink.title"}
+    }
+}

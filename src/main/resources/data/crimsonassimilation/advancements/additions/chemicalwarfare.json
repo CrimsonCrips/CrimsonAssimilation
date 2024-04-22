@@ -1,0 +1,26 @@
+{
+    "parent": "crimsonassimilation:additions/withering_spite",
+    "criteria": {
+        "withering_spite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:potion"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+        "translate": "chemicalwarfare.description"},
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{Potion:\"minecraft:strong_harming\"}"
+        },
+       "title": {"translate": "chemicalwarfare.title"}
+    }
+}

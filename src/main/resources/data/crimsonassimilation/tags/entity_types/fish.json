@@ -1,0 +1,67 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:cod",
+        "minecraft:salmon",
+        "minecraft:tropical_fish",
+        "minecraft:pufferfish",
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        {
+            "id":"betterend:end_fish",
+            "required": false
+        },
+        {
+            "id":"biomemakeover:glowfish",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:cosmic_cod",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:flying_fish",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:hammerhead_shark",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:frilled_shark",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:devils_hole_pupfish",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:catfish",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:flying_fish",
+            "required": false
+        },
+        {
+            "id":"alexsmobs:blobfish",
+            "required": false
+        },
+        {
+            "id":"cataclysm:lionfish",
+            "required": false
+        },
+        {
+            "id":"alexscaves:glowfish",
+            "required": false
+        },
+        {
+            "id":"alexscaves:lanternfish",
+            "required": false
+        },
+        {
+            "id":"alexscaves:tripodfish",
+            "required": false
+        }
+    ]
+}

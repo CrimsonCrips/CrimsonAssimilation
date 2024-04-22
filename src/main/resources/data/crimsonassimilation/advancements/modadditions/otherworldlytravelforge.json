@@ -1,0 +1,31 @@
+{
+  "parent": "modadditions:forgeadditions/steedoftheendforge",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "alexsmobs:chorus_on_a_stick"
+              ]
+            }
+          },
+          "vehicle": {
+            "type": "alexsmobs:endergrade",
+            "location": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": { "translate": "otherworldlytravelforge.description" },
+    "frame": "challenge",
+    "icon": {"item": "alexsmobs:chorus_on_a_stick"},
+    "title": {"translate": "otherworldlytravelforge.title"}
+}
+}

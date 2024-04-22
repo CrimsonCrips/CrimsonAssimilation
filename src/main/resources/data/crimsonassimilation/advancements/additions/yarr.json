@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:adventure/adventuring_time",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_generates_container_loot",
+        "conditions": {
+          "loot_table": "minecraft:chests/buried_treasure"
+        }
+      }
+    },
+  "display": {
+    "description": { "translate": "yarr.description" },
+    "frame": "task",
+    "icon": {"item": "minecraft:filled_map"},
+    "title": {"translate": "yarr.title"}
+}
+
+}

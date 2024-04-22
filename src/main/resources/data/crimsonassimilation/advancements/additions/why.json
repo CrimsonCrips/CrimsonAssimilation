@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:story/enchant_item",
+      "criteria": {
+        "example": {
+          "trigger": "minecraft:enchanted_item",
+          "conditions": {
+            "item": 
+              {
+                "tag": "crimsonassimilation:woodtools"
+              }
+            
+          }
+        }
+      },
+    "display": {
+      "description": { "translate": "why.description" },
+      "frame": "challenge",
+      "hidden": true,
+      "icon": {"item": "minecraft:oak_log"},
+      "title": {"translate": "why.title"}
+  }
+  
+  }

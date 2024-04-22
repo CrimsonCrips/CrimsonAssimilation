@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:adventure/shoot_arrow",
+  "criteria": {
+    "shot_arrow": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bat"
+      },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            },
+            "is_projectile": true
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": { "translate": "arrowbat.description" },
+    "frame": "task",
+    "icon": {"item": "minecraft:arrow"},
+    "title": {"translate": "arrowbat.title"}
+}
+
+}

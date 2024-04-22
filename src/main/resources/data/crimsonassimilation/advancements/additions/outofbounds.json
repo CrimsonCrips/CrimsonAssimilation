@@ -1,0 +1,27 @@
+{  
+  "parent": "minecraft:nether/charge_respawn_anchor",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 128
+              }
+            },
+            "dimension":"the_nether"
+          }
+        }
+      }
+    }
+  },
+    "display": {
+      "description": { "translate": "outofbounds.description" },
+      "frame": "task",
+      "icon": {"item": "minecraft:bedrock"},
+      "title": {"translate": "outofbounds.title"}
+  }
+  
+  }

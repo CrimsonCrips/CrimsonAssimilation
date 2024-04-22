@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:nether/fast_travel",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "betternether:hydrogen_jellyfish"
+            },
+            "killing_blow": {
+                "ignites_armor_stands": "true"
+            }
+        }
+    }
+    },
+    "display": {
+        "description": { "translate": "volatile.description" },
+        "frame": "task",
+        "icon": {"item": "betternether:spawn_egg_hydrogen_jellyfish"},
+        "title": {"translate": "volatile.title"}
+    }
+}

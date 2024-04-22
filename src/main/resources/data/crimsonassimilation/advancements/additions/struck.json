@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "lightning_rod_with_villager_no_fire": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "absolute": {
+                  "max": 1
+                }
+              },
+              "lightning_bolt": {
+                "entity_struck": {
+                  "type": "minecraft:player"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": { "translate": "struck.description" },
+    "frame": "task",
+    "icon": {"item": "minecraft:rotten_flesh"},
+    "title": {"translate": "struck.title"}
+}
+
+}

@@ -1,0 +1,33 @@
+{
+    "parent": "crimsonassimilation:additions/trade_at_void_height",
+    "criteria": {
+		"goober": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:name_tag"
+					],
+					"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Johnny\\\"}\"}}"
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:vindicator"
+						},
+						"entity": "this"
+					}
+				]
+			}
+		}
+	
+},
+"display": {
+	"icon": {
+		"item": "minecraft:iron_axe"},
+	"title": {"translate":"belligerence.title"},
+	"description": {"translate":"belligerence.description"},
+	"frame": "task"
+}
+}

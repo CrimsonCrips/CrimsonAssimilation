@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"millionpotato": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:nether_brick"},
+		"title": {"translate":"netherspeedrun.title",
+		"color":"#C6302E"},
+		"description": {"translate":"netherspeedrun.description",
+		"color":"#A536B0"},
+		"frame": "challenge"
+	}
+}

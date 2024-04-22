@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cake"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "cakeislie.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:cake"},
+        "title": {"translate": "cakeislie.title"}
+    }
+}

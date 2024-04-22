@@ -1,0 +1,24 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:flint_and_steel"
+            ]
+          },
+          "entity": {
+            "type": "minecraft:creeper"
+          }
+        }
+      }
+    },
+  "display": {
+    "description": {"translate": "selfdestruct.description"},
+    "frame": "task",
+    "icon": {"item": "minecraft:flint_and_steel"},
+    "title": {"translate": "selfdestruct.title"}
+    }
+}

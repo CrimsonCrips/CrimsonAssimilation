@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"millionpotato": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_axe"},
+		"title": {"translate":"judgement.title",
+		"color":"#FF4242"},
+		"description": {"translate":"judgement.description",
+		"color":"#673A3A"},
+		"frame": "challenge"
+	}
+}

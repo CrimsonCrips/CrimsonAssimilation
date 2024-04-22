@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:husbandry/ride_a_boat_with_a_goat",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:goat",
+            "nbt": "{IsScreamingGoat:true}"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "screamyourlast.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:goat_horn"},
+        "title": {"translate": "screamyourlast.title"}
+    }
+}

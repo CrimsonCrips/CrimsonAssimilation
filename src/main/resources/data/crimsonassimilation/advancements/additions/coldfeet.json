@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:adventure/honey_block_slide",
+  "criteria": {
+    "honey_block_slide": {
+      "conditions": {
+        "block": "minecraft:powder_snow",
+        "state": {}
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "description": {"translate": "coldfeet.description"},
+    "frame": "task",
+    "icon": {"item": "minecraft:powder_snow_bucket"},
+    "title": {"translate": "coldfeet.title"}
+    }
+}

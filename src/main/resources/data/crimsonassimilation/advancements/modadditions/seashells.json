@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "backpack": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "tag": 
+                    "twigs:seashells"
+                  }]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "seashells.description" },
+        "frame": "task",
+        "icon": {"item": "twigs:tangerine_seashell"},
+        "title": {"translate": "seashells.title"}
+    }
+}

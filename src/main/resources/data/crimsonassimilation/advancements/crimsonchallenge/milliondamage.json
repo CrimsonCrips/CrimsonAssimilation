@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"millionpotato": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:netherite_sword"},
+		"title": {"translate":"milliondamage.title",
+		"color":"#FF0000"},
+		"description": {"translate":"milliondamage.description",
+		"color":"#6A5050"},
+		"frame": "challenge"
+	}
+}

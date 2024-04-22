@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:story/smelt_iron",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:copper_ingot"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "coppernicium.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:copper_ingot"},
+        "title": {"translate": "coppernicium.title"}
+    }
+}

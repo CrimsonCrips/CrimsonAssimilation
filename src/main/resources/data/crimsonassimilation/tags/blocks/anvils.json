@@ -1,0 +1,27 @@
+{
+    "values":[
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil",
+      {
+        "id":"betternether:cincinnasite_anvil",
+        "required": false
+      },
+      {
+        "id":"betterend:thallasium_anvil",
+        "required": false
+      },
+      {
+        "id":"betterend:terminite_anvil",
+        "required": false
+      },
+      {
+        "id":"betterend:aeternium_anvil",
+        "required": false
+      },
+      {
+        "id":"cataclysm:mechanical_fusion_anvil",
+        "required": false
+      }
+    ]
+}

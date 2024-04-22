@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "carved": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:carved_pumpkin"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "carving.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:carved_pumpkin"},
+        "title": {"translate": "carving.title"}
+    }
+}

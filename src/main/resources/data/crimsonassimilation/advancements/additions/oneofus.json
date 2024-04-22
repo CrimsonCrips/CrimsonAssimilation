@@ -1,0 +1,15 @@
+{
+	"parent": "crimsonassimilation:additions/bell",
+	"criteria": {
+		"millionpotato": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:bell"},
+		"title": {"translate":"oneofus.title"},
+		"description": {"translate":"oneofus.description"},
+		"frame": "task"
+	}
+}

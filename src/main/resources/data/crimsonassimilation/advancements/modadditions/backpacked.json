@@ -1,0 +1,23 @@
+{
+    "parent": "crimsonassimilation:additions/coppernicium",
+    "criteria": {
+        "backpack": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "sophisticatedbackpacks:backpack"
+                  ]
+                }
+              ]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "backpacked.description" },
+        "frame": "task",
+        "icon": {"item": "sophisticatedbackpacks:backpack"},
+        "title": {"translate": "backpacked.title"}
+    }
+}

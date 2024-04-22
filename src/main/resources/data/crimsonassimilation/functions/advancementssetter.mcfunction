@@ -1,0 +1,9 @@
+scoreboard objectives add addicted minecraft.custom:minecraft.total_world_time
+scoreboard objectives add judgement minecraft.custom:minecraft.mob_kills
+scoreboard objectives add liveedge health
+scoreboard objectives add liveedgetime minecraft.custom:minecraft.play_time
+scoreboard objectives add milliondamage minecraft.custom:minecraft.damage_dealt
+scoreboard objectives add millionpotato minecraft.mined:minecraft.potatoes
+scoreboard objectives add oneofus minecraft.custom:minecraft.bell_ring
+scoreboard objectives add ironguard dummy
+scoreboard objectives add xperienced level

@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+          "example": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:golden_apple"
+                ]
+              }
+            }
+          }
+        },
+    "display": {
+        "description": { "translate": "goldenheart.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:golden_apple"},
+        "title": {"translate": "goldenheart.title"}
+    }
+}

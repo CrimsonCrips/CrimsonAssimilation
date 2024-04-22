@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:end/find_end_city",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dragon_head"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "executionalextinction.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:dragon_head"},
+        "title": {"translate": "executionalextinction.title"}
+    }
+}

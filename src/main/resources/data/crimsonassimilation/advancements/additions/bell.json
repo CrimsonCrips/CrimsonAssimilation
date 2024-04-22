@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/sleep_in_bed",
+    "criteria": {
+      "use_lodestone": {
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:bell"
+              ]
+            }
+          }
+        },
+        "trigger": "minecraft:item_used_on_block"
+      }
+    },
+    "display": {
+      "description": { "translate": "bell.description" },
+      "frame": "task",
+      "icon": {"item": "minecraft:bell"},
+      "title": {"translate": "bell.title"}
+  }
+  }

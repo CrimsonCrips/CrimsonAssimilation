@@ -1,0 +1,72 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+          "normal": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "player": {
+              "equipment": {
+                "head":{
+                  "items": ["turtle_helmet"]
+                }
+              }
+            },
+              "item": {
+                "items": [
+                  "minecraft:potion"
+                ],
+                "nbt": "{Potion:\"minecraft:turtle_master\"}"
+              }
+            }
+          },
+      "long": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head":{
+                "items": ["turtle_helmet"]
+              }
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{Potion:\"minecraft:long_turtle_master\"}"
+          }
+        }
+      },
+      "strong": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head":{
+                "items": ["turtle_helmet"]
+              }
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:potion"
+            ],
+            "nbt": "{Potion:\"minecraft:strong_turtle_master\"}"
+          }
+        }
+      }
+        },
+    "display": {
+        "description": { "translate": "turtlemastery.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:turtle_helmet"},
+        "title": {"translate": "turtlemastery.title"}
+    },
+  "requirements": [
+    [
+      "normal",
+      "long",
+      "strong"
+    ]
+  ]
+}

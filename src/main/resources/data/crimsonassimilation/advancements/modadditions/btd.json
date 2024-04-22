@@ -1,0 +1,26 @@
+{
+    "parent": "alexsmobs:alexsmobs/tame_capuchin",
+    
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "alexsmobs:ancient_dart"
+          ]
+        },
+        "entity": {
+          "type": "alexsmobs:capuchin_monkey"
+        }
+      }
+    }
+  },
+    "display": {
+        "description": { "translate": "btd.description" },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {"item": "alexsmobs:ancient_dart"},
+        "title": {"translate": "btd.title"}
+    }
+}

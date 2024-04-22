@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/two_birds_one_arrow",
+  "criteria": {
+      "endsplosive": {
+    "trigger": "minecraft:inventory_changed",
+          "conditions": {
+      "items": [
+        {
+          "items": [
+            "hangglider:hang_glider"
+          ]
+        }
+      ]
+    }
+  }				
+  },
+  "display": {
+      "description": { "translate": "preelytra.description" },
+      "frame": "task",
+      "icon": {"item": "hangglider:hang_glider"},
+      "title": {"translate": "preelytra.title"}
+  }
+}

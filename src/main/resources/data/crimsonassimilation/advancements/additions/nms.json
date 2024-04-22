@@ -1,0 +1,31 @@
+{
+	"parent": "minecraft:end/elytra",	
+	"criteria": {
+		"world_height": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"y": {
+										"min": 1000.00
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}	
+	},
+	"display": {
+		"icon": {"item": "minecraft:firework_rocket"},
+		"title": {"translate":"nms.title"},
+		"description": {"translate":"nms.description"},
+		"frame": "challenge"
+	}
+}

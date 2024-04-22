@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "withering_spite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:potion"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+        "translate": "withering_spite.description"},
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:splash_potion",
+            "nbt": "{Potion:\"minecraft:healing\"}"
+        },
+       "title": {"translate": "withering_spite.title"}
+    }
+}

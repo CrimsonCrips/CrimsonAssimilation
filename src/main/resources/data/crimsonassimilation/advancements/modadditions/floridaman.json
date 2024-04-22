@@ -1,0 +1,17 @@
+{
+    "parent": "duckling:breed_duck",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "naturalist:alligator"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "floridaman.description" },
+        "frame": "task",
+        "icon": {"item": "naturalist:reptile_hide"},
+        "title": {"translate": "floridaman.title"}
+    }
+}

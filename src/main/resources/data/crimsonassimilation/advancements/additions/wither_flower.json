@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "carved": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wither_rose"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "wither_rose.description" },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+		"item": "wither_rose"},
+        "title": {"translate": "wither_rose.title"}
+    }
+}

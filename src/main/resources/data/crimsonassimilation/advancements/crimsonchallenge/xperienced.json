@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"xperienced": {
+			"trigger": "crimsonassimilation:xperienced"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:experience_bottle"},
+		"title": {"translate":"xperienced.title",
+		"color":"#1AF949"},
+		"description": {"translate":"xperienced.description",
+		"color":"#4AE16A"},
+		"frame": "challenge"
+	}
+}

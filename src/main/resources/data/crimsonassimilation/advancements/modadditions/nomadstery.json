@@ -1,0 +1,23 @@
+{
+    "parent": "modadditions:forgeadditions/backpacked",
+    "criteria": {
+        "backpack": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "sophisticatedbackpacks:netherite_backpack"
+                  ]
+                }
+              ]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "nomadstery.description" },
+        "frame": "challenge",
+        "icon": {"item": "sophisticatedbackpacks:netherite_backpack"},
+        "title": {"translate": "nomadstery.title"}
+    }
+}

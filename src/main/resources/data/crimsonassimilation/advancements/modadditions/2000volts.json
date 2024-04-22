@@ -1,0 +1,25 @@
+{
+    "parent": "biomemakeover:biomemakeover/bottle_o_lightning",
+    "criteria": {
+        "melted": {
+			"trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                  "type": "minecraft:creeper"},
+                "damage": {
+                  "type": {
+                    "direct_entity": {
+                      "type": "biomemakeover:lightning_bottle"
+                    }
+                  }
+                }
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "2000volts.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:lightning_rod"},
+        "title": {"translate": "2000volts.title"}
+    }
+}

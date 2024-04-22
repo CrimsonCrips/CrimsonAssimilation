@@ -1,0 +1,96 @@
+{
+  "name": "crimsonassimilation:crimsoncave/crimsoncavemonsters",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection5",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection7",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection8",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection9",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "crimsonassimilation:crimsoncave/crimsonmonsters/crimsoncaveselection10",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

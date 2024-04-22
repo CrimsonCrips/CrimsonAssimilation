@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"wither_hell": {
+			"trigger": "crimsonassimilation:wither_hell"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"},
+		"title": {"translate":"withering_hell.title",
+		"color":"#C4E3DF"},
+		"description": {"translate":"withering_hell.description",
+		"color":"#504846"},
+		"frame": "challenge"
+	}
+}

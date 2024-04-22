@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "make_a_sign_glow": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "crimsonassimilation:anvils"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {}
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": { "translate": "anvil.description" },
+    "frame": "task",
+    "icon": {"item": "minecraft:anvil"},
+    "title": {"translate": "anvil.title"}
+  }
+}

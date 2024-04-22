@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:flying_fish"
+        }
+      }
+    }
+  },
+"display": {
+  "description": {"translate": "skyfishing.description"},
+  "frame": "task",
+  "icon": {"item": "minecraft:fishing_rod"},
+  "title": {"translate": "skyfishing.title"}
+  }
+}

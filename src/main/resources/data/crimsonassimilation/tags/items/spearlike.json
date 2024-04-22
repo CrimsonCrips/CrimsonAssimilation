@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:trident",
+        {
+            "id":"bamboocombat:bamboo_spear",
+            "id":"bamboocombat:stone_bamboo_spear",
+            "id":"bamboocombat:iron_bamboo_spear",
+            "id":"bamboocombat:copper_bamboo_spear",
+            "id":"bamboocombat:golden_bamboo_spear",
+            "id":"bamboocombat:diamond_bamboo_spear",
+            "id":"bamboocombat:netherite_bamboo_spear",
+            "id":"bosses_of_mass_destruction:earthdive_spear",
+            "id":"the_bumblezone:stinger_spear",
+            "id":"simplyswords:iron_spear",
+            "id":"simplyswords:gold_spear",
+            "id":"simplyswords:diamond_spear",
+            "id":"simplyswords:netherite_spear",
+            "id":"simplyswords:runic_spear",
+            "id":"cataclysm:coral_spear",
+            "id":"blue_skies:soulbound_spear",
+            "id":"blue_skies:bluebright_spear",
+            "id":"blue_skies:starlit_spear",
+            "id":"blue_skies:frostbright_spear",
+            "id":"blue_skies:lunar_spear",
+            "id":"blue_skies:dusk_spear",
+            "id": "blue_skies:maple_spear",
+            "id":"blue_skies:cherry_spear",
+            "id":"enlightened_end:depleted_irradium_spear",
+            "required": false
+        }
+    ]
+}

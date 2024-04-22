@@ -1,0 +1,26 @@
+{
+    "parent": "crimsonassimilation:additions/screamyourlast",
+    "criteria": {
+      "shot_arrow": {
+        "conditions": {
+            "entity": {
+                "type": "minecraft:goat",
+                "nbt": "{HasLeftHorn:false,HasRightHorn:false}"
+            },
+            "damage": {
+                "source_entity": {
+                    "nbt": "{SelectedItem:{id:\"minecraft:stick\"}}"
+                }
+            }
+        },
+        "trigger": "minecraft:player_hurt_entity"
+      }
+    },
+    "display": {
+      "description": { "translate": "hornynomore.description" },
+      "frame": "task",
+      "icon": {"item": "minecraft:stick"},
+      "title": {"translate": "hornynomore.title"}
+  }
+  
+  }

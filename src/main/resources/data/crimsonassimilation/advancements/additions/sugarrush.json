@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:husbandry/safely_harvest_honey",
+    "criteria": {
+          "example": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ]
+              }
+            }
+          }
+        },
+    "display": {
+        "description": { "translate": "sugarrush.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:sugar"},
+        "title": {"translate": "sugarrush.title"}
+    }
+}

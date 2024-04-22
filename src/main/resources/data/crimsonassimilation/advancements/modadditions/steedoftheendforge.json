@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:end/enter_end_gateway",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "alexsmobs:chorus_on_a_stick"
+                ]
+              }
+            },
+            "vehicle": {
+              "type": "alexsmobs:endergrade"
+            }
+          }
+        }
+      }
+    },
+  "display": {
+    "description": { "translate": "steedoftheendforge.description" },
+    "frame": "task",
+    "icon": {"item": "alexsmobs:chorus_on_a_stick"},
+    "title": {"translate": "steedoftheendforge.title"}
+}
+}

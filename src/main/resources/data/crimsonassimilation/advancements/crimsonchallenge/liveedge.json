@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"millionpotato": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:crimson_fungus"},
+		"title": {"translate":"liveedge.title",
+		"color":"#FF8075"},
+		"description": {"translate":"liveedge.description",
+		"color":"#B21A0D"},
+		"frame": "challenge"
+	}
+}

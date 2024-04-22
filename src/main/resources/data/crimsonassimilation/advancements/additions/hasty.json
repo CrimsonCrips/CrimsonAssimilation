@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:nether/create_beacon",
+    "criteria": {
+        "example": {
+          "trigger": "minecraft:effects_changed",
+          "conditions": {
+            "effects": {
+              "minecraft:haste": {
+                "amplifier": 1
+              }
+            }
+          }
+        }
+      },
+    "display": {
+        "description": { "translate": "hasty.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:golden_pickaxe"},
+        "title": {"translate": "hasty.title"}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "parent": "crimsonassimilation:additions/monumental",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:elder_guardian"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "elderkiller.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:prismarine"},
+        "title": {"translate": "elderkiller.title"}
+    }
+}

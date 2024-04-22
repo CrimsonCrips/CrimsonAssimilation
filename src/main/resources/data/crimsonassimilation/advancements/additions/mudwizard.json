@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:mud"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "mudwizard.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:mud"},
+        "title": {"translate": "mudwizard.title"}
+    }
+}

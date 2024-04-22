@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:end/elytra",
+    "criteria": {
+        "fly": {
+                "trigger": "player_killed_entity",
+                "conditions": {
+                    "player": {
+                        "nbt": "{FallFlying:true}"
+                    },
+                    "killing_blow": {
+                        "is_explosion": "true"
+                    }
+                }
+            }
+    },
+    "display": {
+        "description": { "translate": "kirov.description" },
+        "frame": "task",
+        "icon": {
+            "item": "minecraft:tnt",
+            "nbt": "{Enchantments: [{lvl: 1, id: \"minecraft:unbreaking\"}]}"
+        },
+        "title": {"translate": "kirov.title"}
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "parent": "minecraft:husbandry/kill_axolotl_target",
+    "criteria": {
+        "rare": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+                      {
+                      "items": [
+                        "minecraft:axolotl_bucket"
+                      ],
+                      "nbt": "{Variant:4}"
+                    }
+                  ]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "exotickiller.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:axolotl_bucket",
+      "nbt": "{Enchantments:[{id:\"sharpness\"}]}"},
+        "title": {"translate": "exotickiller.title"}
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:adventure/kill_all_mobs",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"tag": "crimsonassimilation:heads"
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "beheading.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:player_head"},
+        "title": {"translate": "beheading.title"}
+    }
+}

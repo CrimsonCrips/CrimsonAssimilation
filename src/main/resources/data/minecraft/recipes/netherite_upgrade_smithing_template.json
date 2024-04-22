@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "C": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  },
+  "pattern": [
+    "CMC",
+    "#S#",
+    "CMC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

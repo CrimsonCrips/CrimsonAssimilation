@@ -1,0 +1,27 @@
+{  
+  "parent": "minecraft:adventure/fall_from_world_height",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -65
+              }
+            },
+            "dimension": ["the_nether","overworld"]
+          }
+        }
+      }
+    }
+  },
+    "display": {
+      "description": { "translate": "voiddweller.description" },
+      "frame": "task",
+      "icon": {"item": "minecraft:structure_void"},
+      "title": {"translate": "voiddweller.title"}
+  }
+  
+  }

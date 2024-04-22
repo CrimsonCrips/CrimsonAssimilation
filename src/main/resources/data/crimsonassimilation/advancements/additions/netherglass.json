@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:nether/root",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:quartz"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "netherglass.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:quartz"},
+        "title": {"translate": "netherglass.title"}
+    }
+}

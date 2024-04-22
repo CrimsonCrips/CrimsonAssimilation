@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/shoot_arrow",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"nyfsquiver:netherite_quiver"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "masterarcher.description" },
+        "frame": "task",
+        "icon": {"item": "nyfsquiver:netherite_quiver"},
+        "title": {"translate": "masterarcher.title"}
+    }
+}

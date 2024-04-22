@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:nether/obtain_ancient_debris",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_block"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "scavenger.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:netherite_block"},
+        "title": {"translate": "scavenger.title"}
+    }
+}

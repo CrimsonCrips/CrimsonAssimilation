@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:husbandry/balanced_diet",
+    "criteria": {
+        "gapple": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:enchanted_golden_apple"
+						]
+					}
+				]
+			}
+		}				
+    },
+    "display": {
+        "description": { "translate": "gapple.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:enchanted_golden_apple"},
+        "title": {"translate": "gapple.title"}
+    }
+}

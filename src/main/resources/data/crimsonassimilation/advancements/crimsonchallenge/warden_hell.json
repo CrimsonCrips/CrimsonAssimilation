@@ -1,0 +1,17 @@
+{
+	"parent": "crimsonassimilation:crimsonchallenge/root",
+	"criteria": {
+		"warden_hell": {
+			"trigger": "crimsonassimilation:warden_hell"
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk"},
+		"title": {"translate":"warden_hell.title",
+		"color":"#7FB2AC"},
+		"description": {"translate":"warden_hell.description",
+		"color":"#11767D"},
+		"frame": "challenge"
+	}
+}

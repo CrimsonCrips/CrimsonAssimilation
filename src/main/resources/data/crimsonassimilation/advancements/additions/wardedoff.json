@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:adventure/avoid_vibration",
+    "criteria": {
+        "wardenkill": {
+			"trigger": "minecraft:player_killed_entity",
+            "conditions": {
+	            "entity": {"type": "minecraft:warden"}
+            }
+        }
+    },
+    "display": {
+        "description": { "translate": "wardedoff.description" },
+        "frame": "challenge",
+        "icon": {"item": "minecraft:sculk_shrieker"},
+        "title": {"translate": "wardedoff.title"}
+    }
+}

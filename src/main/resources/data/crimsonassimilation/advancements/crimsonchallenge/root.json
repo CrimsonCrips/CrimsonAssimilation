@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "crimsonchallenge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+        "description": { "translate": "crimsonchallenge.description",
+      "color":"#761818"},
+        "frame": "task",
+        "announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/crimson.png",
+        "icon": {"item": "minecraft:crimson_nylium"},
+        "title": {"translate": "crimsonchallenge.title",
+        "color":"#C31D1D"}
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "cataclysm:kill_ignis",
+  "criteria": {
+      "endsplosive": {
+    "trigger": "minecraft:inventory_changed",
+          "conditions": {
+      "items": [
+        {
+          "items": [
+            "cataclysm:the_incinerator"
+          ]
+        }
+      ]
+    }
+  }				
+  },
+  "display": {
+      "description": { "translate": "incineratorobtain.description" },
+      "frame": "challenge",
+      "icon": {"item": "cataclysm:the_incinerator"},
+      "title": {"translate": "incineratorobtain.title"}
+  }
+}

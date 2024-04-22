@@ -1,0 +1,24 @@
+{
+    "parent": "crimsonassimilation:additions/wardedoff",
+    "criteria": {
+        "example": {
+          "trigger": "minecraft:effects_changed",
+          "conditions": {
+            "effects": {
+              "minecraft:night_vision": {}
+            },
+            "player": {
+              "location": {
+                "biome" : "deep_dark"
+              }
+            }
+          }
+        }
+      },
+    "display": {
+        "description": { "translate": "rhodopsin.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:sculk_shrieker"},
+        "title": {"translate": "rhodopsin.title"}
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:story/follow_ender_eye",
+  "criteria": {
+      "gapple": {
+    "trigger": "minecraft:inventory_changed",
+          "conditions": {
+      "items": [
+        {
+          "items": [
+            "minecraft:ender_chest"
+          ]
+        }
+      ]
+    }
+  }				
+  },
+  "display": {
+      "description": { "translate": "universalstorage.description" },
+      "frame": "task",
+      "icon": {"item": "minecraft:ender_chest"},
+      "title": {"translate": "universalstorage.title"}
+  }
+}

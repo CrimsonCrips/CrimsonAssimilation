@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "joust": {
+      "conditions": {
+        "player": {
+          "vehicle": {}
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": { "translate": "jousting.description" },
+    "frame": "task",
+    "icon": {"item": "minecraft:saddle"},
+    "title": {"translate": "jousting.title"}
+  }
+}

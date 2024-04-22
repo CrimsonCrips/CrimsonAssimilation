@@ -1,0 +1,25 @@
+{
+    "parent": "crimsonassimilation:additions/sugarrush",
+    "criteria": {
+          "drink": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+              "player": {
+                "nbt": "{ActiveEffects:[{Id:19}]}"
+            },
+              "item": {
+                "items": [
+                  "minecraft:honey_bottle"
+                ]
+              }
+            }
+          }
+        },
+    "display": {
+        "description": { "translate": "sweetrelief.description" },
+        "frame": "challenge",
+        "hidden": true,
+        "icon": {"item": "minecraft:sugar"},
+        "title": {"translate": "sweetrelief.title"}
+    }
+}

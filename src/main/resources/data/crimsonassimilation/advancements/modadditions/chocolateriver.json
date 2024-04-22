@@ -1,0 +1,18 @@
+{
+  "parent": "create:chocolate_bucket",
+  "criteria": {
+    "honey_block_slide": {
+      "conditions": {
+        "block": "create:chocolate",
+        "state": {}
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "description": {"translate": "chocolateriver.description"},
+    "frame": "task",
+    "icon": {"item": "create:chocolate_bucket"},
+    "title": {"translate": "chocolateriver.title"}
+    }
+}

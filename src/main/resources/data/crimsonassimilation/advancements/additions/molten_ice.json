@@ -1,0 +1,29 @@
+{
+    "parent": "crimsonassimilation:additions/carve_pumpkin",
+    "criteria": {
+        "scalding_cold": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:snow_golem",
+                            "location": {
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
+                    }
+                ]
+            },
+		"trigger": "minecraft:summoned_entity"
+        }
+    },
+"display": {
+        "description": { "translate": "molten_ice.description"},
+        "frame": "task",
+        "hidden": false,
+        "icon": {"item": "minecraft:snowball"},
+        "title": {"translate": "molten_ice.title"}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values":[
+        "minecraft:spider",
+        "skeleton_horse",
+        "zombie_horse",
+        "horse",
+        "mule",
+        "donkey",
+        "chicken",
+        {
+            "id":"adventurez:nightmare",
+            "required": false
+        }
+        
+    ]
+}

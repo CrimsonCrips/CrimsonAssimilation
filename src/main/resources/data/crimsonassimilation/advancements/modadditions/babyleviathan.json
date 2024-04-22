@@ -1,0 +1,23 @@
+{
+  "parent": "cataclysm:kill_leviathan",
+  "criteria": {
+      "endsplosive": {
+    "trigger": "minecraft:inventory_changed",
+          "conditions": {
+      "items": [
+        {
+          "items": [
+            "cataclysm:the_baby_leviathan_bucket"
+          ]
+        }
+      ]
+    }
+  }				
+  },
+  "display": {
+      "description": { "translate": "babyleviathan.description" },
+      "frame": "challenge",
+      "icon": {"item": "cataclysm:the_baby_leviathan_bucket"},
+      "title": {"translate": "babyleviathan.title"}
+  }
+}

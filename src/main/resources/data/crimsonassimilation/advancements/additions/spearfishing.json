@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:husbandry/fishy_business",
+    "criteria": {
+        "bonk": {
+            "conditions": {
+              "entity": {
+                "type": "#crimsonassimilation:fish"
+           },
+              "killing_blow": {
+                "direct_entity": {
+                  "equipment": {
+                    "mainhand": {
+                      "tag": "crimsonassimilation:spearlike"
+                    }
+                  }
+                }
+              }
+          },
+          "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": { "translate": "spearfishing.description" },
+        "frame": "task",
+        "icon": {"item": "minecraft:salmon"},
+        "title": {"translate": "spearfishing.title"}
+    }
+}

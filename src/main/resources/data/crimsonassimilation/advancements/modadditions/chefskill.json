@@ -1,0 +1,22 @@
+{
+    "parent": "farmersdelight:main/place_skillet",
+    "criteria": {
+        "bonk": {
+            "conditions": {
+              "killing_blow": {
+                "source_entity": {
+                  "nbt": "{SelectedItem:{id:\"farmersdelight:skillet\"}}"
+                }
+              }
+          },
+          "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": { "translate": "skillet.description" },
+        "frame": "task",
+        "hidden": false,
+        "icon": {"item": "farmersdelight:skillet"},
+        "title": {"translate": "skillet.title"}
+    }
+}

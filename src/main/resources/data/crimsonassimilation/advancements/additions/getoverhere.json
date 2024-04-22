@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:husbandry/fishy_business",
+    "criteria": {
+      "example": {
+        "trigger": "minecraft:fishing_rod_hooked",
+        "conditions": {}
+      }
+    },
+  "display": {
+    "description": {"translate": "getoverhere.description"},
+    "frame": "task",
+    "icon": {"item": "minecraft:fishing_rod"},
+    "title": {"translate": "getoverhere.title"}
+    }
+}
