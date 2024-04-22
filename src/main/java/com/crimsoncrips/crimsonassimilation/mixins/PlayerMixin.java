@@ -32,6 +32,7 @@ public abstract class PlayerMixin extends Player {
     int witherReset = 0;
 
     int reset = 0;
+
     int wardencount = 0;
 
     public PlayerMixin(Level p_250508_, BlockPos p_250289_, float p_251702_, GameProfile p_252153_) {
